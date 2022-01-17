@@ -1,0 +1,10 @@
+<%- include('partials/header') %>
+<div>
+    <h2><%= planet.name %></h2>
+    <h3>Diamètre : <%= planet.size %></h3>
+    <img src="/img/<%= planet.name %>.jpg" alt="<% planet.name %>">
+    <p class="description"><%= planet.spitch %></p>
+    <p>Source: <a href="http://www.wikipedia.org/" alt="wikipedia" target="_blank">Wikipedia</a></p>
+    <p><a href="/">Retour à l'accueil</a></p>
+</div>
+<%- include('partials/footer') %>

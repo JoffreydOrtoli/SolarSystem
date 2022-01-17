@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    font-size: 1.4em;
+    background-color: #000;
+    color: #fff;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 1.5em;
+    font-weight: bold;
+}
+
+a {
+    color: #fff;
+}
+
+#planets {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1000px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.planets {
+    width: 250px;
+}
+
+.planets_image {
+    width: 80%;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+}
+
+#footer__image-mahh {
+    width: 200px;
+}
