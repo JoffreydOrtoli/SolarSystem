@@ -5,10 +5,24 @@ body {
     color: #fff;
 }
 
-h1 {
-    font-size: 3em;
-    margin-bottom: 1.5em;
+#header {
+    padding: 0.2em;
     font-weight: bold;
+    background: url(../img/banner.PNG) no-repeat center;
+    background-size: cover;
+}
+
+#title {
+    font-size: 3.4em;
+}
+
+#title2 {
+    font-size: 2.2em;
+    margin-top: 2em;
+}
+
+#title3 {
+    font-size: 1.4em;
 }
 
 a {
@@ -17,7 +31,8 @@ a {
 
 #planets {
     display: flex;
-    margin: 0 auto;
+    margin: 1.6em auto;
+    padding: 1.8em;
     max-width: 1000px;
     justify-content: center;
     flex-wrap: wrap;
@@ -27,7 +42,7 @@ a {
     width: 250px;
 }
 
-.planets_image {
+.planets_images {
     width: 80%;
 }
 
@@ -35,9 +50,13 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 4em;
+    margin-top: 3em;
 }
 
 #footer__image-mahh {
     width: 200px;
+}
+
+#title {
+    /* transform: rotate(180deg); */
 }
