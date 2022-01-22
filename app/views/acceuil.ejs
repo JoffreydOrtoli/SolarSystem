@@ -1,10 +1,9 @@
 <%- include('partials/header') %>
-<div id="planets">
-    <% for (const planet of planets) { %>
-        <div class="planets">
-            <a class="planets_liens" href="<%= planet.name %>"><img class="planets_images" src="/img/<%= planet.name %>.jpg" alt="<% planet.name %>"></a>
-            <a class="planets_liens" href="<%= planet.name %>"><%= planet.name %></a>
-        </div>
-    <% } %>
-</div>
+<h1>Ici l'acceuil</h1>
+<nav>
+    <ul>
+        <li><a href="/solarsystem">Sytème solaire</a></li>
+        <li><a href="/pays">Pays</a></li>
+    </ul>
+</nav>
 <%- include('partials/footer') %>

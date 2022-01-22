@@ -5,7 +5,7 @@ const port = 3000;
 const router = require('./router');
 
 server.locals = {
-    author: 'Mahh',
+    author: 'Joffrey',
   };
 
 server.set('view engine', 'ejs');

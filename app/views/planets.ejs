@@ -1,10 +1,16 @@
 <%- include('partials/header') %>
-<div>
-    <h2 id="title2"><%= planet.name %></h2>
-    <h3 id="title3">Diamètre : <%= planet.size %></h3>
-    <img src="/img/<%= planet.name %>.jpg" alt="<% planet.name %>">
-    <p class="description"><%= planet.spitch %></p>
+    
+    <% if (planet.name === "terre") { %>
+        <form class="search" action="/solarsystem" method="get">
+            <input name="search" placeholder="cherchez un pays" class="search_input" type="text">
+            <button class="search_btn" type="submit">Chercher</button>
+        </form>
+    <% } %>
+    <h2 id="titlePlanetPage"><%= planet.name %></h2>
+    <h3 id="planeteDiametre">Diamètre : <%= planet.size %></h3>
+    <div id="imgspitchPlanetsPage">
+        <img class="imgPlanetsPage" src="/img/<%= planet.name %>.png" alt="<% planet.name %>">
+        <p class="spitchPlanetsPage"><%= planet.spitch %></p>
+    </div>
     <p>Source: <a href="http://www.wikipedia.org/" alt="wikipedia" target="_blank">Wikipedia</a></p>
-    <p><a href="/">Retour à l'accueil</a></p>
-</div>
 <%- include('partials/footer') %>

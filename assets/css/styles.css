@@ -1,62 +1,143 @@
 body {
     text-align: center;
-    font-size: 1.4em;
     background-color: #000;
     color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #header {
-    padding: 0.2em;
-    font-weight: bold;
+    padding: 2em;
     background: url(../img/banner.PNG) no-repeat center;
+    font-weight: 900;
     background-size: cover;
 }
 
-#title {
-    font-size: 3.4em;
+#headerTitle {
+    font-family: Arial;
+    font-size: 4em;
 }
 
-#title2 {
+.search {
+    padding: 1em;
+    text-align: center;
+}
+  
+.search_input {
+    padding: 0.5em;
+    border-radius: 1px;
+}
+  
+.search_btn {
+    padding: 0.5em;
+    border-radius: 1px;
+}
+
+#titlePlanetPage {
     font-size: 2.2em;
-    margin-top: 2em;
+    font-weight: 900;
+    margin-top: 1em;
+    margin-bottom: 1.8em;
+    text-transform: uppercase;
 }
 
-#title3 {
+#planeteDiametre {
     font-size: 1.4em;
+    margin-bottom: 2em;
 }
-
-a {
-    color: #fff;
-}
-
 #planets {
     display: flex;
-    margin: 1.6em auto;
+    margin: 2em auto;
     padding: 1.8em;
-    max-width: 1000px;
+    max-width: 1200px;
     justify-content: center;
+    gap: 10px 20px;
     flex-wrap: wrap;
 }
 
 .planets {
-    width: 250px;
+    width: 22%;
+    height: 280px;
+}
+
+.planets_liens {
+    text-transform: uppercase;
 }
 
 .planets_images {
-    width: 80%;
+    width: 86%;
+    padding-bottom: 2em;
+    animation: rotation 60s infinite linear;
+}
+
+.planets_images:hover{
+    width: 92%;
+    animation-play-state: paused;
+}
+
+#imgspitchPlanetsPage {
+    /* display: flex; */
+}
+
+.imgPlanetsPage {
+    width: 500px;
+}
+
+.spitchPlanetsPage {
+    max-width: 800px;
+    padding: 0.5em;
+    margin: 1em auto;
 }
 
 #footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3em;
+    padding: 2em;
+    margin-top: 2em;
 }
 
 #footer__image-mahh {
-    width: 200px;
+    width: 100px;
+    margin: 0 1.2em;
 }
 
-#title {
-    /* transform: rotate(180deg); */
+@keyframes rotation {
+    from {
+            transform: rotate(0deg);
+    }
+    to {
+            transform: rotate(359deg);
+    }
+}
+
+.show {
+    color: #F0F;
+}
+
+/* *** Error page *** */
+#img404 {
+    width: 65%;
+}
+
+#backhome {
+    font-size: 1.8em;
+    padding: 0.5em;
+    border: 3px solid orange;
+    border-radius: 20px;
+}
+
+@media (max-width: 600px) {
+    .planets {
+        width: 45%;
+        /* height: 300px; */
+    }
+    .imgPlanetsPage {
+        width: 80%;
+    }
+    
+    .spitchPlanetsPage {
+        width: 90%;
+        margin: 1em auto;
+    }
+
 }

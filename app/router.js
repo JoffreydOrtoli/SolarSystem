@@ -1,15 +1,33 @@
 const express = require('express');
-const planets = require('./planets');
+const planets = require('./data/planets');
 
 const router = express.Router();
 
-router.get('/', (req, res) => {
-    res.render(`acceuil`, {
-        author: 'Mahh',   
-        planets: planets,
-    });
-});
-router.get('/:name', (req, res) => {
+router.get("/", (req, res) => {
+    res.render("acceuil");
+})
+
+router.get('/solarsystem', (req, res) => {
+    if (req.query.search) {
+        const filterPlanets = [];
+        const loweredQuery = req.query.search.toLowerCase();
+        for (const planet of planets) {
+            if(planet.name.includes(loweredQuery)) {
+                filterPlanets.push(planet);
+            }
+        }
+        res.render('solarsystem', {
+            planets: filterPlanets,
+        });
+    }
+    else {
+        res.render('solarsystem', {
+            planets: planets,
+        })
+    }
+})
+
+router.get('/planete/:name', (req, res, next) => {
     const askedPlanets = req.params.name;
 
     let foundPlanet = null;
@@ -20,14 +38,17 @@ router.get('/:name', (req, res) => {
         }
     }
     if (foundPlanet) {
-        res.render(`planets`, {
-            author: 'Mahh',   
+        res.render(`planets`, {  
             planet: foundPlanet,
         });
     }
     else {
-        res.sendStatus(404);
+        next();
     }
+});
+
+router.use(function (req, res) {
+    res.status(404).render('notfound');
 });
 
   module.exports = router;

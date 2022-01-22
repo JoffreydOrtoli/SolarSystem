@@ -1,0 +1,10 @@
+<%- include('partials/header') %>
+
+<div id="planets">
+    <% for (const planet of planets) { %>
+        <div class="planets">
+            <a class="planets_liens" href="/planete/<%= planet.name %>"><img class="planets_images" src="/img/<%= planet.name %>.png" alt="<% planet.name %>"><%= planet.name %></a>
+        </div>
+    <% } %>
+</div>
+<%- include('partials/footer') %>
