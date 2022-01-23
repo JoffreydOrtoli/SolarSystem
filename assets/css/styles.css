@@ -1,38 +1,70 @@
 body {
-    text-align: center;
     background-color: #000;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* *** Header *** */
 #header {
-    padding: 2em;
+    padding: 1.5em;
+    display: flex;
+    justify-content: space-around;
     background: url(../img/banner.PNG) no-repeat center;
     font-weight: 900;
     background-size: cover;
 }
 
 #headerTitle {
-    font-family: Arial;
-    font-size: 4em;
+    padding: 0.4em;
+    font-size: 6em;
 }
 
-.search {
-    padding: 1em;
+#nav {
+    display: flex;
+    padding-top: 2em;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.link_header {
+    padding: 0.5em;
+    background-color: #000;
+    border: 3px solid #fff;
+    border-radius: 6px;
     text-align: center;
 }
-  
-.search_input {
-    padding: 0.5em;
-    border-radius: 1px;
-}
-  
-.search_btn {
-    padding: 0.5em;
-    border-radius: 1px;
+
+/* *** Acceuil *** */
+#para_acceuil {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 2em;
 }
 
-#titlePlanetPage {
+#images_acceuil {
+    position: relative;
+}
+#soleil_acceuil {
+    position: absolute;
+    animation: rotation 100s infinite linear;
+    width: 22%;
+    top: 5%;
+    left: 6%;
+}
+
+#img_map_acceuil {
+    width: 20%;
+    position: absolute;
+    bottom: 32%;
+    right: 6%;
+}
+
+#img_acceuil {
+    width: 100%;
+}
+
+.title_pages {
+    text-align: center;
     font-size: 2.2em;
     font-weight: 900;
     margin-top: 1em;
@@ -40,20 +72,26 @@ body {
     text-transform: uppercase;
 }
 
-#planeteDiametre {
-    font-size: 1.4em;
-    margin-bottom: 2em;
+/* *** Search field *** */
+.search {
+    padding: 1em;
+    text-align: center;
 }
-#planets {
-    display: flex;
-    margin: 2em auto;
-    padding: 1.8em;
-    max-width: 1200px;
-    justify-content: center;
-    gap: 10px 20px;
-    flex-wrap: wrap;
+  
+.search_input {
+    padding: 0.5em;
+    border-radius: 0.4em;
+}
+  
+.search_btn {
+    padding: 0.5em;
+    border-radius: 0.4em;
 }
 
+/* *** SolarSystem *** */
+#planets {
+    text-align: center;
+}
 .planets {
     width: 22%;
     height: 280px;
@@ -74,8 +112,23 @@ body {
     animation-play-state: paused;
 }
 
-#imgspitchPlanetsPage {
-    /* display: flex; */
+/* *** Planets pages *** */
+#container_pageplanetes {
+    text-align: center;
+}
+
+#planeteDiametre {
+    font-size: 1.4em;
+    margin-bottom: 1em;
+}
+
+#planets {
+    display: flex;
+    margin: 2em auto;
+    padding: 1.8em;
+    max-width: 1200px;
+    gap: 10px 20px;
+    flex-wrap: wrap;
 }
 
 .imgPlanetsPage {
@@ -86,19 +139,6 @@ body {
     max-width: 800px;
     padding: 0.5em;
     margin: 1em auto;
-}
-
-#footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2em;
-    margin-top: 2em;
-}
-
-#footer__image-mahh {
-    width: 100px;
-    margin: 0 1.2em;
 }
 
 @keyframes rotation {
@@ -126,11 +166,40 @@ body {
     border-radius: 20px;
 }
 
-@media (max-width: 600px) {
+/* Mobile css */
+@media (max-width: 650px) {
+    #header {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    #headerTitle {
+        font-size: 3em;
+    }
+
+    #nav {
+        margin: 0 auto;
+        padding-top: 0.5em;
+        flex-direction: row;
+    }
+
+    #para_acceuil {
+        width: 350px;
+    }
+
+    .link_header {
+        width: 9em;
+        padding: 0.2em;
+        border: 1px solid #fff;
+    }
+
+    .title_pages {
+        font-size: 1em;
+    }
     .planets {
         width: 45%;
-        /* height: 300px; */
     }
+
     .imgPlanetsPage {
         width: 80%;
     }

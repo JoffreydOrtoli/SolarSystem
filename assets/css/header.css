@@ -1,0 +1,12 @@
+
+#header {
+    padding: 2em;
+    font-weight: 900;
+    background-size: cover;
+    background: url(../img/banner.PNG) no-repeat center;
+}
+
+#headerTitle {
+    font-family: Arial;
+    font-size: 4em;
+}

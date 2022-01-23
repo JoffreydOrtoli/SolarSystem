@@ -1,0 +1,29 @@
+<%- include('partials/header') %>
+<div id="container_countrys">
+    <h2 class="title_pages">Pays du monde</h2>
+  <form class="search" id="search__countrys" action="/terre/countrys" method="get">
+    <input name="searchCountry" placeholder="cherchez un pays" class="search_input" type="text"/>
+    <input name="searchCapital" placeholder="cherchez une capitale" class="search_input" type="text"/>
+    <input name="searchContinent" placeholder="cherchez un continent" class="search_input" type="text"/>
+    <button class="search_btn" type="submit">Chercher</button>
+  </form>
+  <table id="countrys">
+    <thead class="countrys">
+      <tr>
+        <th class="country_table__head">Pays</th>
+        <th class="country_table__head">Capitale</th>
+        <th class="country_table__head">Continent</th>
+      </tr>
+    </thead>
+    <tbody class="countrys">
+      <% for (const country of countrys) { %>
+      <tr>
+        <td class="country_table__body"><%= country.name %></td>
+        <td class="country_table__body"><%= country.capital %></td>
+        <td class="country_table__body"><%= country.continent %></td>
+      </tr>
+      <% } %>
+    </tbody>
+  </table>
+</div>
+<%- include('partials/footer') %>

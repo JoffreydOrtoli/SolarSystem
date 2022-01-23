@@ -1,0 +1,14 @@
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    margin-top: 1em;
+    height: 1em;
+}
+
+#footer__image-mahh {
+    width: 100px;
+    margin: 0 1.2em;
+}
