@@ -59,7 +59,7 @@ router.get('/terre/:country', (req, res, next) => {
 
     let foundCountry = null;
     for (const country of countrys) {
-        if(country.name === askedCountry || country.capital === askedCountry) {
+        if (country.name === askedCountry || country.capital === askedCountry) {
             foundCountry = country;
             break;
         }
@@ -73,6 +73,25 @@ router.get('/terre/:country', (req, res, next) => {
         next();
     }
 })
+
+router.get('/terre/:continent', (req, res, next) => {
+    const askedContinent = req.params.continent;
+    
+    let foundContinent = [];
+    for (const country of countrys) {
+        if (country.continent === askedContinent) {
+            foundContinent.push(country);
+        }
+    }
+    if (foundContinent) {
+        res.render('continent', {
+            countrys: foundContinent,
+        })
+    }
+    else {
+        next();
+    }
+});  
 
 router.use(function (req, res) {
     res.status(404).render('notfound');

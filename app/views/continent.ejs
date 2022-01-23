@@ -1,4 +1,23 @@
 <%- include('partials/header') %>
-
-ici les continents
+    <div id="container_continent">
+        <h3 class="titleh3_pages">Les pays du continent sont:</h3>
+        <table id="continent">
+            <thead class="continent">
+              <tr>
+                <th class="continent_table__head">Pays</th>
+                <th class="continent_table__head">Capitale</th>
+                <th class="continent_table__head">Population</th>
+              </tr>
+            </thead>
+            <tbody class="continent">
+              <% for (const country of countrys) { %>
+              <tr>
+                <td class="continent_table__body"><a href="<%= country.name %>"><%= country.name %></a></td>
+                <td class="continent_table__body"><a href="<%= country.capital %>"><%= country.capital %></a></td>
+                <td class="continent_table__body"><%= country.population %></td>
+              </tr>
+              <% } %>
+            </tbody>
+          </table>>
+    </div>
 <%- include('partials/footer') %>

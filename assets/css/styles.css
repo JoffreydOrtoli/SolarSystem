@@ -92,6 +92,7 @@ body {
 #planets {
     text-align: center;
 }
+
 .planets {
     width: 22%;
     height: 280px;
@@ -156,17 +157,44 @@ body {
 
 /* *** Country Page *** */
 #container_country {
+    max-width: 800px;
+    margin: 0 auto;
     text-align: center;
 }
 
 .high {
-    font-size: 1.4em;
-    line-height: 1.2em;
-}
-
-.para_country {
     font-size: 1.2em;
 }
+
+#para_country {
+    font-size: 1.1em;
+    line-height: 1.4em;
+}
+
+/* *** Continent Page *** */
+#container_continent {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#continent {
+    margin: 0 auto;
+    border: 2px solid rgb(18, 7, 175);
+}
+
+.continent_table__head {
+    width: 33%;
+    border: 2px solid rgb(18, 7, 175);
+    padding: 1em;
+}
+
+.continent_table__body {
+    width: 33%;
+    border: 1px solid rgb(18, 7, 175);
+    padding: 0.8em;
+}
+
 /* *** Error page *** */
 #container_notfound {
     text-align: center;
@@ -174,7 +202,8 @@ body {
 
 .titleh3_pages {
     font-size: 2em;
-    padding-top: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 #img404 {
