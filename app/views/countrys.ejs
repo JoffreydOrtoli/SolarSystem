@@ -18,9 +18,9 @@
     <tbody class="countrys">
       <% for (const country of countrys) { %>
       <tr>
-        <td class="country_table__body"><%= country.name %></td>
-        <td class="country_table__body"><%= country.capital %></td>
-        <td class="country_table__body"><%= country.continent %></td>
+        <td class="country_table__body"><a href="<%= country.name %>"><%= country.name %></a></td>
+        <td class="country_table__body"><a href="<%= country.capital %>"><%= country.capital %></a></td>
+        <td class="country_table__body"><a href="<%= country.continent %>"><%= country.continent %></a></td>
       </tr>
       <% } %>
     </tbody>

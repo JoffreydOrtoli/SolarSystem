@@ -54,6 +54,26 @@ router.get('/terre/countrys', (req, res) => {
     } 
 });
 
+router.get('/terre/:country', (req, res, next) => {
+    const askedCountry = req.params.country;
+
+    let foundCountry = null;
+    for (const country of countrys) {
+        if(country.name === askedCountry || country.capital === askedCountry) {
+            foundCountry = country;
+            break;
+        }
+    }
+    if (foundCountry) {
+        res.render('country', {
+            country: foundCountry,
+        })
+    }
+    else {
+        next();
+    }
+})
+
 router.use(function (req, res) {
     res.status(404).render('notfound');
 });

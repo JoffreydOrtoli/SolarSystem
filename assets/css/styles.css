@@ -117,7 +117,7 @@ body {
     text-align: center;
 }
 
-#planeteDiametre {
+#dimaetre_planet {
     font-size: 1.4em;
     margin-bottom: 1em;
 }
@@ -154,7 +154,29 @@ body {
     color: #F0F;
 }
 
+/* *** Country Page *** */
+#container_country {
+    text-align: center;
+}
+
+.high {
+    font-size: 1.4em;
+    line-height: 1.2em;
+}
+
+.para_country {
+    font-size: 1.2em;
+}
 /* *** Error page *** */
+#container_notfound {
+    text-align: center;
+}
+
+.titleh3_pages {
+    font-size: 2em;
+    padding-top: 3em;
+}
+
 #img404 {
     width: 65%;
 }
@@ -209,4 +231,10 @@ body {
         margin: 1em auto;
     }
 
+    #backhome {
+        font-size: 0.8em;
+        padding: 0.5em;
+        border: 1px solid orange;
+        border-radius: 10px;
+    }
 }

@@ -1,0 +1,7 @@
+<%- include('partials/header') %>
+<div id="container_country">
+<h3 class="titleh3_pages">Bienvenue sur la page du pays</h3><h2 class="title_pages"><%= country.name %></h2>
+<p>Sa capitale c'est <span class="high"><%= country.capital %></span> et il a une superficie de <span class="high"><%= country.area %></span> ce qui représente <span class="high"></span><%= country.pourcent %></span> de celle de tous les pays.</p>
+<p>D'après <span class="high"><a href="https://www.un.org/fr/">l'O.N.U</a> en 2020 la population de <span class="high"><%= country.name %></span> était de <span class="high"><%= country.population %></span></p>
+</div>
+<%- include('partials/footer') %>

@@ -1,987 +1,1578 @@
 [
-    {
-      "name": "Afghanistan",
-      "capital": "Kaboul",
-      "continent": "Asie"
-    },
-    {
-      "name": "Afrique du Sud",
-      "capital": "Pretoria",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Albanie",
-      "capital": "Tirana",
-      "continent": "Europe"
-    },
-    {
-      "name": "Algérie",
-      "capital": "Alger",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Allemagne",
-      "capital": "Berlin",
-      "continent": "Europe"
-    },
-    {
-      "name": "Andorre",
-      "capital": "Andorre-la-Vieille",
-      "continent": "Europe"
-    },
-    {
-      "name": "Angola",
-      "capital": "Luanda",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Antigua-et-Barbuda",
-      "capital": "Saint John's",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Arabie Saoudite",
-      "capital": "Riyad",
-      "continent": "Asie"
-    },
-    {
-      "name": "Argentine",
-      "capital": "Buenos Aires",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Arménie",
-      "capital": "Erevan",
-      "continent": "Asie"
-    },
-    {
-      "name": "Australie",
-      "capital": "Canberra",
-      "continent": "Océanie"
-    },
-    {
-      "name": "Autriche",
-      "capital": "Vienne",
-      "continent": "Europe"
-    },
-    {
-      "name": "Azerbaïdjan",
-      "capital": "Bakou",
-      "continent": "Asie"
-    },
-    {
-      "name": "Bahamas",
-      "capital": "Nassau",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Bahreïn",
-      "capital": "Manama",
-      "continent": "Asie"
-    },
-    {
-      "name": "Bangladesh",
-      "capital": "Dacca",
-      "continent": "Asie"
-    },
-    {
-      "name": "Barbade",
-      "capital": "Bridgetown",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Belgique",
-      "capital": "Bruxelles",
-      "continent": "Europe"
-    },
-    {
-      "name": "Belize",
-      "capital": "Belmopan",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Bénin",
-      "capital": "Porto-Novo",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Bhoutan",
-      "capital": "Thimbu",
-      "continent": "Asie"
-    },
-    {
-      "name": "Biélorussie",
-      "capital": "Minsk",
-      "continent": "Europe"
-    },
-    {
-      "name": "Birmanie",
-      "capital": "Naypyidaw",
-      "continent": "Asie"
-    },
-    {
-      "name": "Bolivie",
-      "capital": "Sucre",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Bosnie-Herzégovine",
-      "capital": "Sarajevo",
-      "continent": "Europe"
-    },
-    {
-      "name": "Botswana",
-      "capital": "Gaborone",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Brésil",
-      "capital": "Brasilia",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Brunei",
-      "capital": "Bandar Seri Begawan",
-      "continent": "Asie"
-    },
-    {
-      "name": "Bulgarie",
-      "capital": "Sofia",
-      "continent": "Europe"
-    },
-    {
-      "name": "Burkina Faso",
-      "capital": "Ouagadougou",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Burundi",
-      "capital": "Bujumbura",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Cambodge",
-      "capital": "Phname Penh",
-      "continent": "Asie"
-    },
-    {
-      "name": "Cameroun",
-      "capital": "Yaoundé",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Canada",
-      "capital": "Ottawa",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Cap-Vert",
-      "capital": "Praia",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Chili",
-      "capital": "Santiago",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Chine",
-      "capital": "Pékin",
-      "continent": "Asie"
-    },
-    {
-      "name": "Chypre",
-      "capital": "Nicosie",
-      "continent": "Europe"
-    },
-    {
-      "name": "Colombie",
-      "capital": "Bogota",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Comores",
-      "capital": "Moroni",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Congo",
-      "capital": "Brazzaville",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Corée du Nord",
-      "capital": "Pyongyang",
-      "continent": "Asie"
-    },
-    {
-      "name": "Corée du Sud",
-      "capital": "Séoul",
-      "continent": "Asie"
-    },
-    {
-      "name": "Costa Rica",
-      "capital": "San José",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Côte d'Ivoire",
-      "capital": "Yamoussoukro",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Croatie",
-      "capital": "Zagreb",
-      "continent": "Europe"
-    },
-    {
-      "name": "Cuba",
-      "capital": "La Havane",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Danemark",
-      "capital": "Copenhague",
-      "continent": "Europe"
-    },
-    {
-      "name": "Djibouti",
-      "capital": "Djibouti",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Dominique",
-      "capital": "Roseau",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Egypte",
-      "capital": "Le Caire",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Emirats Arabes Unis",
-      "capital": "Abu Dhabi",
-      "continent": "Asie"
-    },
-    {
-      "name": "Equateur",
-      "capital": "Quito",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Erythrée",
-      "capital": "Asmara",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Espagne",
-      "capital": "Madrid",
-      "continent": "Europe"
-    },
-    {
-      "name": "Estonie",
-      "capital": "Tallinn",
-      "continent": "Europe"
-    },
-    {
-      "name": "Eswatini",
-      "capital": "Mbabane",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Etats-Unis",
-      "capital": "Washington",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Ethiopie",
-      "capital": "Addis-Abeba",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Fidji",
-      "capital": "Suva",
-      "continent": "Océanie"
-    },
-    {
-      "name": "Finlande",
-      "capital": "Helsinki",
-      "continent": "Europe"
-    },
-    {
-      "name": "France",
-      "capital": "Paris",
-      "continent": "Europe"
-    },
-    {
-      "name": "Gabon",
-      "capital": "Libreville",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Gambie",
-      "capital": "Banjul",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Géorgie",
-      "capital": "Tbilissi",
-      "continent": "Asie"
-    },
-    {
-      "name": "Ghana",
-      "capital": "Accra",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Grèce",
-      "capital": "Athènes",
-      "continent": "Europe"
-    },
-    {
-      "name": "Grenade",
-      "capital": "Saint George's",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Guatemala",
-      "capital": "Guatemala",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Guinée",
-      "capital": "Conakry",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Guinée équatoriale",
-      "capital": "Malabo",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Guinée-Bissau",
-      "capital": "Bissau",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Guyana",
-      "capital": "Georgetown",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Haïti",
-      "capital": "Port-au-Prince",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Honduras",
-      "capital": "Tegucigalpa",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Hongrie",
-      "capital": "Budapest",
-      "continent": "Europe"
-    },
-    {
-      "name": "Île Maurice",
-      "capital": "Port Louis",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Inde",
-      "capital": "New Delhi",
-      "continent": "Asie"
-    },
-    {
-      "name": "Indonésie",
-      "capital": "Jakarta",
-      "continent": "Asie"
-    },
-    {
-      "name": "Irak",
-      "capital": "Bagdad",
-      "continent": "Asie"
-    },
-    {
-      "name": "Iran",
-      "capital": "Téhéran",
-      "continent": "Asie"
-    },
-    {
-      "name": "Irlande",
-      "capital": "Dublin",
-      "continent": "Europe"
-    },
-    {
-      "name": "Islande",
-      "capital": "Reykjavik",
-      "continent": "Europe"
-    },
-    {
-      "name": "Israël",
-      "capital": "Jérusalem",
-      "continent": "Asie"
-    },
-    {
-      "name": "Italie",
-      "capital": "Rome",
-      "continent": "Europe"
-    },
-    {
-      "name": "Jamaïque",
-      "capital": "Kingston",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Japon",
-      "capital": "Tokyo",
-      "continent": "Asie"
-    },
-    {
-      "name": "Jordanie",
-      "capital": "Amman",
-      "continent": "Asie"
-    },
-    {
-      "name": "Kazakhstan",
-      "capital": "Astana",
-      "continent": "Asie"
-    },
-    {
-      "name": "Kenya",
-      "capital": "Nairobi",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Kirghizistan",
-      "capital": "Bichkek",
-      "continent": "Asie"
-    },
-    {
-      "name": "Kiribati",
-      "capital": "Tarawa",
-      "continent": "Océanie"
-    },
-    {
-      "name": "Kosovo",
-      "capital": "Pristina",
-      "continent": "Europe"
-    },
-    {
-      "name": "Koweït",
-      "capital": "Koweït",
-      "continent": "Asie"
-    },
-    {
-      "name": "Laos",
-      "capital": "Vientiane",
-      "continent": "Asie"
-    },
-    {
-      "name": "Lesotho",
-      "capital": "Maseru",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Lettonie",
-      "capital": "Riga",
-      "continent": "Europe"
-    },
-    {
-      "name": "Liban",
-      "capital": "Beyrouth",
-      "continent": "Asie"
-    },
-    {
-      "name": "Liberia",
-      "capital": "Monrovia",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Libye",
-      "capital": "Tripoli",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Liechtenstein",
-      "capital": "Vaduz",
-      "continent": "Europe"
-    },
-    {
-      "name": "Lituanie",
-      "capital": "Vilnius",
-      "continent": "Europe"
-    },
-    {
-      "name": "Luxembourg",
-      "capital": "Luxembourg",
-      "continent": "Europe"
-    },
-    {
-      "name": "Macédoine du Nord",
-      "capital": "Skopje",
-      "continent": "Europe"
-    },
-    {
-      "name": "Madagascar",
-      "capital": "Antananarivo",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Malaisie",
-      "capital": "Kuala Lumpur",
-      "continent": "Asie"
-    },
-    {
-      "name": "Malawi",
-      "capital": "Lilongwe",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Maldives",
-      "capital": "Malé",
-      "continent": "Asie"
-    },
-    {
-      "name": "Mali",
-      "capital": "Bamako",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Malte",
-      "capital": "La Valette",
-      "continent": "Europe"
-    },
-    {
-      "name": "Maroc",
-      "capital": "Rabat",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Marshall",
-      "capital": "Majuro",
-      "continent": "Océanie"
-    },
-    {
-      "name": "Mauritanie",
-      "capital": "Nouakchott",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Mexique",
-      "capital": "Mexico",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Micronésie",
-      "capital": "Palikir",
-      "continent": "Océanie"
-    },
-    {
-      "name": "Moldavie",
-      "capital": "Chisinau",
-      "continent": "Europe"
-    },
-    {
-      "name": "Monaco",
-      "capital": "Monaco",
-      "continent": "Europe"
-    },
-    {
-      "name": "Mongolie",
-      "capital": "Oulan-Bator",
-      "continent": "Asie"
-    },
-    {
-      "name": "Monténégro",
-      "capital": "Podgorica",
-      "continent": "Europe"
-    },
-    {
-      "name": "Mozambique",
-      "capital": "Maputo",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Namibie",
-      "capital": "Windhoek",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Nauru",
-      "capital": "Yaren",
-      "continent": "Océanie"
-    },
-    {
-      "name": "Népal",
-      "capital": "Katmandou",
-      "continent": "Asie"
-    },
-    {
-      "name": "Nicaragua",
-      "capital": "Managua",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Niger",
-      "capital": "Niamey",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Nigeria",
-      "capital": "Abuja",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Norvège",
-      "capital": "Oslo",
-      "continent": "Europe"
-    },
-    {
-      "name": "Nouvelle-Zélande",
-      "capital": "Wellington",
-      "continent": "Océanie"
-    },
-    {
-      "name": "Oman",
-      "capital": "Mascate",
-      "continent": "Asie"
-    },
-    {
-      "name": "Ouganda",
-      "capital": "Kampala",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Ouzbékistan",
-      "capital": "Tachkent",
-      "continent": "Asie"
-    },
-    {
-      "name": "Pakistan",
-      "capital": "Islamabad",
-      "continent": "Asie"
-    },
-    {
-      "name": "Palaos",
-      "capital": "Melekeok",
-      "continent": "Océanie"
-    },
-    {
-      "name": "Palestine",
-      "capital": "Jérusalem-Est",
-      "continent": "Asie"
-    },
-    {
-      "name": "Panama",
-      "capital": "Panama",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Papouasie-Nouvelle-Guinée",
-      "capital": "Port Moresby",
-      "continent": "Océanie"
-    },
-    {
-      "name": "Paraguay",
-      "capital": "Asunciòn",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Pays-Bas",
-      "capital": "Amsterdam",
-      "continent": "Europe"
-    },
-    {
-      "name": "Pérou",
-      "capital": "Lima",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Philippines",
-      "capital": "Manille",
-      "continent": "Asie"
-    },
-    {
-      "name": "Pologne",
-      "capital": "Varsovie",
-      "continent": "Europe"
-    },
-    {
-      "name": "Portugal",
-      "capital": "Lisbonne",
-      "continent": "Europe"
-    },
-    {
-      "name": "Qatar",
-      "capital": "Doha",
-      "continent": "Asie"
-    },
-    {
-      "name": "République Centrafricaine",
-      "capital": "Bangui",
-      "continent": "Afrique"
-    },
-    {
-      "name": "République Démocratique du Congo",
-      "capital": "Kinshasa",
-      "continent": "Afrique"
-    },
-    {
-      "name": "République Dominicaine",
-      "capital": "Saint-Domingue",
-      "continent": "Amérique"
-    },
-    {
-      "name": "République Tchèque",
-      "capital": "Prague",
-      "continent": "Europe"
-    },
-    {
-      "name": "Roumanie",
-      "capital": "Bucarest",
-      "continent": "Europe"
-    },
-    {
-      "name": "Royaume-Uni",
-      "capital": "Londres",
-      "continent": "Europe"
-    },
-    {
-      "name": "Russie",
-      "capital": "Moscou",
-      "continent": "Europe"
-    },
-    {
-      "name": "Rwanda",
-      "capital": "Kigali",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Saint-Kitts-et-Nevis",
-      "capital": "Basseterre",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Saint-Marin",
-      "capital": "Saint-Marin",
-      "continent": "Europe"
-    },
-    {
-      "name": "Saint-Vincent-et-les-Grenadines",
-      "capital": "Kingstown",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Sainte-Lucie",
-      "capital": "Castries",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Salomon",
-      "capital": "Honiara",
-      "continent": "Océanie"
-    },
-    {
-      "name": "Salvador",
-      "capital": "San Salvador",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Samoa",
-      "capital": "Apia",
-      "continent": "Océanie"
-    },
-    {
-      "name": "São Tomé et Prìncipe",
-      "capital": "São Tomé",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Sénégal",
-      "capital": "Dakar",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Serbie",
-      "capital": "Belgrade",
-      "continent": "Europe"
-    },
-    {
-      "name": "Seychelles",
-      "capital": "Victoria",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Sierra Leone",
-      "capital": "Freetown",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Singapour",
-      "capital": "Singapour",
-      "continent": "Asie"
-    },
-    {
-      "name": "Slovaquie",
-      "capital": "Bratislava",
-      "continent": "Europe"
-    },
-    {
-      "name": "Slovénie",
-      "capital": "Ljubljana",
-      "continent": "Europe"
-    },
-    {
-      "name": "Somalie",
-      "capital": "Mogadiscio",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Soudan",
-      "capital": "Khartoum",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Soudan du Sud",
-      "capital": "Djouba",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Sri Lanka",
-      "capital": "Sri Jayawardenapura",
-      "continent": "Asie"
-    },
-    {
-      "name": "Suède",
-      "capital": "Stockholm",
-      "continent": "Europe"
-    },
-    {
-      "name": "Suisse",
-      "capital": "Berne",
-      "continent": "Europe"
-    },
-    {
-      "name": "Suriname",
-      "capital": "Paramaribo",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Syrie",
-      "capital": "Damas",
-      "continent": "Asie"
-    },
-    {
-      "name": "Tadjikistan",
-      "capital": "Douchanbe",
-      "continent": "Asie"
-    },
-    {
-      "name": "Taïwan",
-      "capital": "Taipei",
-      "continent": "Asie"
-    },
-    {
-      "name": "Tanzanie",
-      "capital": "Dodoma",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Tchad",
-      "capital": "N'Djamena",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Thaïlande",
-      "capital": "Bangkok",
-      "continent": "Asie"
-    },
-    {
-      "name": "Timor-Oriental",
-      "capital": "Dili",
-      "continent": "Océanie"
-    },
-    {
-      "name": "Togo",
-      "capital": "Lomé",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Tonga",
-      "capital": "Nukualofa",
-      "continent": "Océanie"
-    },
-    {
-      "name": "Trinité-et-Tobago",
-      "capital": "Port of Spain",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Tunisie",
-      "capital": "Tunis",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Turkménistan",
-      "capital": "Achgabat",
-      "continent": "Asie"
-    },
-    {
-      "name": "Turquie",
-      "capital": "Ankara",
-      "continent": "Asie"
-    },
-    {
-      "name": "Tuvalu",
-      "capital": "Fanafuti",
-      "continent": "Océanie"
-    },
-    {
-      "name": "Ukraine",
-      "capital": "Kiev",
-      "continent": "Europe"
-    },
-    {
-      "name": "Uruguay",
-      "capital": "Montevideo",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Vanuatu",
-      "capital": "Port-Vila",
-      "continent": "Océanie"
-    },
-    {
-      "name": "Vatican",
-      "capital": "Vatican",
-      "continent": "Europe"
-    },
-    {
-      "name": "Venezuela",
-      "capital": "Caracas",
-      "continent": "Amérique"
-    },
-    {
-      "name": "Viêt Nam",
-      "capital": "Hanoi",
-      "continent": "Asie"
-    },
-    {
-      "name": "Yémen",
-      "capital": "Sanaa",
-      "continent": "Asie"
-    },
-    {
-      "name": "Zambie",
-      "capital": "Lusaka",
-      "continent": "Afrique"
-    },
-    {
-      "name": "Zimbabwe",
-      "capital": "Harare",
-      "continent": "Afrique"
-    }
-  ]
+  {
+    "name": "Afghanistan",
+    "capital": "Kaboul",
+    "continent": "Asie",
+    "area": "652 090 km2",
+    "pourcent": "0,44 %",
+    "population": "38 928 346 hab."
+  },
+  {
+    "name": "Afrique du Sud",
+    "capital": "Pretoria",
+    "continent": "Afrique",
+    "area": "1 221 037 km2",
+    "pourcent": "0,82 %",
+    "population": "59 308 690 hab."
+  },
+  {
+    "name": "Albanie",
+    "capital": "Tirana",
+    "continent": "Europe",
+    "area": "28 748 km2",
+    "pourcent": "0,02 %",
+    "population": "2 877 797 hab."
+  },
+  {
+    "name": "Algérie",
+    "capital": "Alger",
+    "continent": "Afrique",
+    "area": "2 381 741 km2",
+    "pourcent": "1,6 %",
+    "population": "43 851 044 hab."
+  },
+  {
+    "name": "Allemagne",
+    "capital": "Berlin",
+    "continent": "Europe",
+    "area": "357 021 km2",
+    "pourcent": "0,24 %",
+    "population": "83 783 942 hab."
+  },
+  {
+    "name": "Andorre",
+    "capital": "Andorre-la-Vieille",
+    "continent": "Europe",
+    "area": "468 km2",
+    "pourcent": "<0,001 %",
+    "population": "77 265 hab."
+  },
+  {
+    "name": "Angola",
+    "capital": "Luanda",
+    "continent": "Afrique",
+    "area": "1 246 700 km2",
+    "pourcent": "0,85 %",
+    "population": "32 866 272 hab."
+  },
+  {
+    "name": "Antigua-et-Barbuda",
+    "capital": "Saint John's",
+    "continent": "Amérique",
+    "area": "442 km2",
+    "pourcent": "<0,001 %",
+    "population": "97 929 hab."
+  },
+  {
+    "name": "Arabie Saoudite",
+    "capital": "Riyad",
+    "continent": "Asie",
+    "area": "2 149 680 km2",
+    "pourcent": "1,4 %",
+    "population": "34 813 871 hab."
+  },
+  {
+    "name": "Argentine",
+    "capital": "Buenos Aires",
+    "continent": "Amérique",
+    "area": "2 780 400 km2",
+    "pourcent": "2 %",
+    "population": "45 195 774 hab."
+  },
+  {
+    "name": "Arménie",
+    "capital": "Erevan",
+    "continent": "Asie",
+    "area": "29 743 km2",
+    "pourcent": "0,02 %",
+    "population": "2 963 243 hab."
+  },
+  {
+    "name": "Australie",
+    "capital": "Canberra",
+    "continent": "Océanie",
+    "area": "7 692 060 km2",
+    "pourcent": "5,2 %",
+    "population": "25 499 884 hab."
+  },
+  {
+    "name": "Autriche",
+    "capital": "Vienne",
+    "continent": "Europe",
+    "area": "83 871 km2",
+    "pourcent": "0,06 %",
+    "population": "9 006 398 hab."
+  },
+  {
+    "name": "Azerbaïdjan",
+    "capital": "Bakou",
+    "continent": "Asie",
+    "area": "86 600 km2",
+    "pourcent": "0,06 %",
+    "population": "10 139 177 hab."
+  },
+  {
+    "name": "Bahamas",
+    "capital": "Nassau",
+    "continent": "Amérique",
+    "area": "13 943 km2",
+    "pourcent": "<0,01 %",
+    "population": "393 244 hab."
+  },
+  {
+    "name": "Bahreïn",
+    "capital": "Manama",
+    "continent": "Asie",
+    "area": "758 km2",
+    "pourcent": "<0,001 %",
+    "population": "1 701 575 hab."
+  },
+  {
+    "name": "Bangladesh",
+    "capital": "Dacca",
+    "continent": "Asie",
+    "area": "143 998 km2",
+    "pourcent": "0,10 %",
+    "population": "164 689 383 hab."
+  },
+  {
+    "name": "Barbade",
+    "capital": "Bridgetown",
+    "continent": "Amérique",
+    "area": "430 km2",
+    "pourcent": "<0,001 %",
+    "population": "287 375 hab."
+  },
+  {
+    "name": "Belgique",
+    "capital": "Bruxelles",
+    "continent": "Europe",
+    "area": "30 528 km2",
+    "pourcent": "0,02 %",
+    "population": "11 589 623 hab."
+  },
+  {
+    "name": "Belize",
+    "capital": "Belmopan",
+    "continent": "Amérique",
+    "area": "22 966 km2",
+    "pourcent": "0,02 %",
+    "population": "397 628 hab."
+  },
+  {
+    "name": "Bénin",
+    "capital": "Porto-Novo",
+    "continent": "Afrique",
+    "area": "114 763 km2",
+    "pourcent": "0,08 %",
+    "population": "12 123 200 hab."
+  },
+  {
+    "name": "Bhoutan",
+    "capital": "Thimbu",
+    "continent": "Asie",
+    "area": "38 394 km2",
+    "pourcent": "0,03 %",
+    "population": "771 608 hab."
+  },
+  {
+    "name": "Biélorussie",
+    "capital": "Minsk",
+    "continent": "Europe",
+    "area": "207 600 km2",
+    "pourcent": "0,14 %",
+    "population": "9 449 323 hab."
+  },
+  {
+    "name": "Birmanie",
+    "capital": "Naypyidaw",
+    "continent": "Asie",
+    "area": "676 578 km2",
+    "pourcent": "0,45 %",
+    "population": "54 409 800 hab."
+  },
+  {
+    "name": "Bolivie",
+    "capital": "Sucre",
+    "continent": "Amérique",
+    "area": "1 098 581 km2",
+    "pourcent": "0,74 %",
+    "population": "11 673 021 hab."
+  },
+  {
+    "name": "Bosnie-Herzégovine",
+    "capital": "Sarajevo",
+    "continent": "Europe",
+    "area": "51 197 km2",
+    "pourcent": "0,03 %",
+    "population": "3 280 819 hab."
+  },
+  {
+    "name": "Botswana",
+    "capital": "Gaborone",
+    "continent": "Afrique",
+    "area": "582 000 km2",
+    "pourcent": "0,39 %",
+    "population": "2 351 627 hab."
+  },
+  {
+    "name": "Brésil",
+    "capital": "Brasilia",
+    "continent": "Amérique",
+    "area": "8 515 767 km2Note 7",
+    "pourcent": "5,7 %",
+    "population": "212 559 417 hab."
+  },
+  {
+    "name": "Brunei",
+    "capital": "Bandar Seri Begawan",
+    "continent": "Asie",
+    "area": "5 765 km2",
+    "pourcent": "<0,01 %",
+    "population": "437 479 hab."
+  },
+  {
+    "name": "Bulgarie",
+    "capital": "Sofia",
+    "continent": "Europe",
+    "area": "110 879 km2",
+    "pourcent": "0,07 %",
+    "population": "6 948 445 hab."
+  },
+  {
+    "name": "Burkina Faso",
+    "capital": "Ouagadougou",
+    "continent": "Afrique",
+    "area": "272 967 km2",
+    "pourcent": "0,18 %",
+    "population": "20 903 273 hab."
+  },
+  {
+    "name": "Burundi",
+    "capital": "Bujumbura",
+    "continent": "Afrique",
+    "area": "27 834 km2",
+    "pourcent": "0,02 %",
+    "population": "11 890 784 hab."
+  },
+  {
+    "name": "Cambodge",
+    "capital": "Phnom Penh",
+    "continent": "Asie",
+    "area": "181 035 km2",
+    "pourcent": "0,12 %",
+    "population": "16 718 965 hab."
+  },
+  {
+    "name": "Cameroun",
+    "capital": "Yaoundé",
+    "continent": "Afrique",
+    "area": "475 442 km2",
+    "pourcent": "0,32 %",
+    "population": "26 545 863 hab."
+  },
+  {
+    "name": "Canada",
+    "capital": "Ottawa",
+    "continent": "Amérique",
+    "area": "9 984 670 km2",
+    "pourcent": "6,7 %",
+    "population": "37 742 154 hab."
+  },
+  {
+    "name": "Cap-Vert",
+    "capital": "Praia",
+    "continent": "Afrique",
+    "area": "4 033 km2",
+    "pourcent": "<0,01 %",
+    "population": "555 987 hab."
+  },
+  {
+    "name": "Chili",
+    "capital": "Santiago",
+    "continent": "Amérique",
+    "area": "756 102 km2",
+    "pourcent": "0,51 %",
+    "population": "19 116 201 hab."
+  },
+  {
+    "name": "Chine",
+    "capital": "Pékin",
+    "continent": "Asie",
+    "area": "9 600 000 km27",
+    "pourcent": "6,4 %",
+    "population": "1.439.323.774  "
+  },
+  {
+    "name": "Chypre",
+    "capital": "Nicosie",
+    "continent": "Europe",
+    "area": "9 251 km2",
+    "pourcent": "<0,01 %",
+    "population": "1 207 359 hab."
+  },
+  {
+    "name": "Colombie",
+    "capital": "Bogota",
+    "continent": "Amérique",
+    "area": "1 141 748 km2",
+    "pourcent": "0,76 %",
+    "population": "50 882 891 hab."
+  },
+  {
+    "name": "Comores",
+    "capital": "Moroni",
+    "continent": "Afrique",
+    "area": "2 236 km2",
+    "pourcent": "<0,01 %",
+    "population": "869 601 hab."
+  },
+  {
+    "name": "Congo",
+    "capital": "Brazzaville",
+    "continent": "Afrique",
+    "area": "342 000 km2",
+    "pourcent": "0,23 %",
+    "population": "5 518 087 hab."
+  },
+  {
+    "name": "Corée du Nord",
+    "capital": "Pyongyang",
+    "continent": "Asie",
+    "area": "120 538 km2",
+    "pourcent": "0,08 %",
+    "population": "25 778 816 hab."
+  },
+  {
+    "name": "Corée du Sud",
+    "capital": "Séoul",
+    "continent": "Asie",
+    "area": "99 828 km2",
+    "pourcent": "0,07 %",
+    "population": "51 269 185 hab."
+  },
+  {
+    "name": "Costa Rica",
+    "capital": "San José",
+    "continent": "Amérique",
+    "area": "51 100 km2",
+    "pourcent": "0,03 %",
+    "population": "5 094 118 hab."
+  },
+  {
+    "name": "Côte d'Ivoire",
+    "capital": "Yamoussoukro",
+    "continent": "Afrique",
+    "area": "322 463 km2",
+    "pourcent": "0,22 %",
+    "population": "26 378 274 hab."
+  },
+  {
+    "name": "Croatie",
+    "capital": "Zagreb",
+    "continent": "Europe",
+    "area": "56 594 km2",
+    "pourcent": "0,04 %",
+    "population": "4 105 267 hab."
+  },
+  {
+    "name": "Cuba",
+    "capital": "La Havane",
+    "continent": "Amérique",
+    "area": "109 886 km2",
+    "pourcent": "0,07 %",
+    "population": "11 326 616 hab."
+  },
+  {
+    "name": "Danemark",
+    "capital": "Copenhague",
+    "continent": "Europe",
+    "area": "43 094 km2",
+    "pourcent": "1,5 %",
+    "population": "5 792 202 hab."
+  },
+  {
+    "name": "Djibouti",
+    "capital": "Djibouti",
+    "continent": "Afrique",
+    "area": "23 200 km2",
+    "pourcent": "0,02 %",
+    "population": "988 000 hab."
+  },
+  {
+    "name": "Dominique",
+    "capital": "Roseau",
+    "continent": "Amérique",
+    "area": "751 km2",
+    "pourcent": "<0,001 %",
+    "population": "71 986 hab."
+  },
+  {
+    "name": "Egypte",
+    "capital": "Le Caire",
+    "continent": "Afrique",
+    "area": "1 002 450 km2",
+    "pourcent": "0,67 %",
+    "population": "102 334 404 hab."
+  },
+  {
+    "name": "Emirats Arabes Unis",
+    "capital": "Abu Dhabi",
+    "continent": "Asie",
+    "area": "83 600 km2",
+    "pourcent": "0,06 %",
+    "population": "9 890 402 hab."
+  },
+  {
+    "name": "Equateur",
+    "capital": "Quito",
+    "continent": "Amérique",
+    "area": "256 369 km2",
+    "pourcent": "0,17 %",
+    "population": "17 643 054 hab."
+  },
+  {
+    "name": "Erythrée",
+    "capital": "Asmara",
+    "continent": "Afrique",
+    "area": "117 600 km2",
+    "pourcent": "0,08 %",
+    "population": "3 546 421 hab."
+  },
+  {
+    "name": "Espagne",
+    "capital": "Madrid",
+    "continent": "Europe",
+    "area": "510 000 km2",
+    "pourcent": "0,34 %",
+    "population": "46 754 778 hab."
+  },
+  {
+    "name": "Estonie",
+    "capital": "Tallinn",
+    "continent": "Europe",
+    "area": "45 339 km2",
+    "pourcent": "0,03 %",
+    "population": "1 326 535 hab."
+  },
+  {
+    "name": "Eswatini",
+    "capital": "Mbabane",
+    "continent": "Afrique",
+    "area": "17 364 km2",
+    "pourcent": "0,01 %",
+    "population": "1 104 479 hab."
+  },
+  {
+    "name": "Etats-Unis",
+    "capital": "Washington",
+    "continent": "Amérique",
+    "area": "9 629 091 km2",
+    "pourcent": "6,4 %",
+    "population": "331 002 651 hab."
+  },
+  {
+    "name": "Ethiopie",
+    "capital": "Addis-Abeba",
+    "continent": "Afrique",
+    "area": "1 104 300 km2",
+    "pourcent": "0,74 %",
+    "population": "114 963 588 hab."
+  },
+  {
+    "name": "Fidji",
+    "capital": "Suva",
+    "continent": "Océanie",
+    "area": "18 272 km2",
+    "pourcent": "0,01 %",
+    "population": "896 445 hab."
+  },
+  {
+    "name": "Finlande",
+    "capital": "Helsinki",
+    "continent": "Europe",
+    "area": "338 424 km2",
+    "pourcent": "0,23 %",
+    "population": "5 540 720 hab."
+  },
+  {
+    "name": "France",
+    "capital": "Paris",
+    "continent": "Europe",
+    "area": "672 051 km2",
+    "pourcent": "0,45 %",
+    "population": "67.012.883"
+  },
+  {
+    "name": "Gabon",
+    "capital": "Libreville",
+    "continent": "Afrique",
+    "area": "267 668 km2",
+    "pourcent": "0,18 %",
+    "population": "2 225 734 hab."
+  },
+  {
+    "name": "Gambie",
+    "capital": "Banjul",
+    "continent": "Afrique",
+    "area": "11 295 km2",
+    "pourcent": "<0,01 %",
+    "population": "2 416 668 hab."
+  },
+  {
+    "name": "Géorgie",
+    "capital": "Tbilissi",
+    "continent": "Asie",
+    "area": "69 700 km2 (57 147 km2 sans l'Abkhazie et l'Oss tie du Sud)",
+    "pourcent": "0,05 %",
+    "population": "3 989 167 hab."
+  },
+  {
+    "name": "Ghana",
+    "capital": "Accra",
+    "continent": "Afrique",
+    "area": "238 533 km2",
+    "pourcent": "0,16 %",
+    "population": "31 072 940 hab."
+  },
+  {
+    "name": "Grèce",
+    "capital": "Athènes",
+    "continent": "Europe",
+    "area": "131 957 km2",
+    "pourcent": "0,09 %",
+    "population": "10 423 054 hab."
+  },
+  {
+    "name": "Grenade",
+    "capital": "Saint George's",
+    "continent": "Amérique",
+    "area": "344 km2",
+    "pourcent": "<0,001 %",
+    "population": "112 523 hab."
+  },
+  {
+    "name": "Guatemala",
+    "capital": "Guatemala",
+    "continent": "Amérique",
+    "area": "108 889 km2",
+    "pourcent": "0,07 %",
+    "population": "17 915 568 hab."
+  },
+  {
+    "name": "Guinée",
+    "capital": "Conakry",
+    "continent": "Afrique",
+    "area": "245 857 km2",
+    "pourcent": "0,17 %",
+    "population": "13 132 795 hab."
+  },
+  {
+    "name": "Guinée équatoriale",
+    "capital": "Malabo",
+    "continent": "Afrique",
+    "area": "28 051 km2",
+    "pourcent": "0,02 %",
+    "population": "1 402 985 hab."
+  },
+  {
+    "name": "Guinée-Bissau",
+    "capital": "Bissau",
+    "continent": "Afrique",
+    "area": "36 125 km2",
+    "pourcent": "0,02 %",
+    "population": "1 968 001 hab."
+  },
+  {
+    "name": "Guyana",
+    "capital": "Georgetown",
+    "continent": "Amérique",
+    "area": "214 969 km2",
+    "pourcent": "0,14 %",
+    "population": "786 552 hab."
+  },
+  {
+    "name": "Haïti",
+    "capital": "Port-au-Prince",
+    "continent": "Amérique",
+    "area": "27 750 km2",
+    "pourcent": "0,02 %",
+    "population": "11 402 528 hab."
+  },
+  {
+    "name": "Honduras",
+    "capital": "Tegucigalpa",
+    "continent": "Amérique",
+    "area": "112 492 km2",
+    "pourcent": "0,08 %",
+    "population": "9 904 607 hab."
+  },
+  {
+    "name": "Hongrie",
+    "capital": "Budapest",
+    "continent": "Europe",
+    "area": "93 028 km2",
+    "pourcent": "0,06 %",
+    "population": "9 660 351 hab."
+  },
+  {
+    "name": "Île Maurice",
+    "capital": "Port Louis",
+    "continent": "Afrique",
+    "area": "2 040 km2",
+    "pourcent": "<0,01 %",
+    "population": "1 271 768 hab."
+  },
+  {
+    "name": "Inde",
+    "capital": "New Delhi",
+    "continent": "Asie",
+    "area": "3 287 263 km2",
+    "pourcent": "2,3 %",
+    "population": "1 380 004 385 hab."
+  },
+  {
+    "name": "Indonésie",
+    "capital": "Jakarta",
+    "continent": "Asie",
+    "area": "1 910 931 km2",
+    "pourcent": "1,3 %",
+    "population": "273 523 615 hab."
+  },
+  {
+    "name": "Irak",
+    "capital": "Bagdad",
+    "continent": "Asie",
+    "area": "435 244 km2",
+    "pourcent": "0,29 %",
+    "population": "40 222 493 hab."
+  },
+  {
+    "name": "Iran",
+    "capital": "Téhéran",
+    "continent": "Asie",
+    "area": "1 648 195 km2",
+    "pourcent": "1,1 %",
+    "population": "83 992 949 hab."
+  },
+  {
+    "name": "Irlande",
+    "capital": "Dublin",
+    "continent": "Europe",
+    "area": "70 273 km2",
+    "pourcent": "0,05 %",
+    "population": "4 937 786 hab."
+  },
+  {
+    "name": "Islande",
+    "capital": "Reykjavik",
+    "continent": "Europe",
+    "area": "103 000 km2",
+    "pourcent": "0,07 %",
+    "population": "341 243 hab."
+  },
+  {
+    "name": "Israël",
+    "capital": "Jérusalem",
+    "continent": "Asie",
+    "area": "22 072 km2",
+    "pourcent": "0,01 %",
+    "population": "8 655 535 hab."
+  },
+  {
+    "name": "Italie",
+    "capital": "Rome",
+    "continent": "Europe",
+    "area": "301 336 km2",
+    "pourcent": "0,20 %",
+    "population": "60 461 826 hab."
+  },
+  {
+    "name": "Jamaïque",
+    "capital": "Kingston",
+    "continent": "Amérique",
+    "area": "10 991 km2",
+    "pourcent": "<0,01 %",
+    "population": "2 961 167 hab."
+  },
+  {
+    "name": "Japon",
+    "capital": "Tokyo",
+    "continent": "Asie",
+    "area": "377 930 km2",
+    "pourcent": "0,25 %",
+    "population": "126 476 461 hab."
+  },
+  {
+    "name": "Jordanie",
+    "capital": "Amman",
+    "continent": "Asie",
+    "area": "89 342 km2",
+    "pourcent": "0,06 %",
+    "population": "10 203 134 hab."
+  },
+  {
+    "name": "Kazakhstan",
+    "capital": "Astana",
+    "continent": "Asie",
+    "area": "2 724 910 km2",
+    "pourcent": "1,8 %",
+    "population": "18 776 707 hab."
+  },
+  {
+    "name": "Kenya",
+    "capital": "Nairobi",
+    "continent": "Afrique",
+    "area": "580 367 km2",
+    "pourcent": "0,39 %",
+    "population": "53 771 296 hab."
+  },
+  {
+    "name": "Kirghizistan",
+    "capital": "Bichkek",
+    "continent": "Asie",
+    "area": "199 951 km2",
+    "pourcent": "0,13 %",
+    "population": "6 524 195 hab."
+  },
+  {
+    "name": "Kiribati",
+    "capital": "Tarawa",
+    "continent": "Océanie",
+    "area": "726 km2",
+    "pourcent": "<0,001 %",
+    "population": "119 449 hab."
+  },
+  {
+    "name": "Kosovo",
+    "capital": "Pristina",
+    "continent": "Europe",
+    "area": "10 887 km2",
+    "pourcent": "<0,01 %",
+    "population": "1 920 079 hab."
+  },
+  {
+    "name": "Koweït",
+    "capital": "Koweït",
+    "continent": "Asie",
+    "area": "17 818 km2",
+    "pourcent": "0,01 %",
+    "population": "4 270 571 hab."
+  },
+  {
+    "name": "Laos",
+    "capital": "Vientiane",
+    "continent": "Asie",
+    "area": "236 800 km2",
+    "pourcent": "0,16 %",
+    "population": "7 275 560 hab."
+  },
+  {
+    "name": "Lesotho",
+    "capital": "Maseru",
+    "continent": "Afrique",
+    "area": "30 355 km2",
+    "pourcent": "0,02 %",
+    "population": "2 142 249 hab."
+  },
+  {
+    "name": "Lettonie",
+    "capital": "Riga",
+    "continent": "Europe",
+    "area": "64 559 km2",
+    "pourcent": "0,04 %",
+    "population": "1 886 198 hab."
+  },
+  {
+    "name": "Liban",
+    "capital": "Beyrouth",
+    "continent": "Asie",
+    "area": "10 452 km2",
+    "pourcent": "<0,01 %",
+    "population": "6 825 445 hab."
+  },
+  {
+    "name": "Liberia",
+    "capital": "Monrovia",
+    "continent": "Afrique",
+    "area": "111 369 km2",
+    "pourcent": "0,07 %",
+    "population": "5 057 681 hab."
+  },
+  {
+    "name": "Libye",
+    "capital": "Tripoli",
+    "continent": "Afrique",
+    "area": "1 759 540 km2",
+    "pourcent": "1,2 %",
+    "population": "6 871 292 hab."
+  },
+  {
+    "name": "Liechtenstein",
+    "capital": "Vaduz",
+    "continent": "Europe",
+    "area": "160 km2",
+    "pourcent": "<0,001 %",
+    "population": "38 128 hab."
+  },
+  {
+    "name": "Lituanie",
+    "capital": "Vilnius",
+    "continent": "Europe",
+    "area": "65 300 km2",
+    "pourcent": "0,04 %",
+    "population": "2 722 289 hab."
+  },
+  {
+    "name": "Luxembourg",
+    "capital": "Luxembourg",
+    "continent": "Europe",
+    "area": "2 586 km2",
+    "pourcent": "<0,01 %",
+    "population": "625 978 hab."
+  },
+  {
+    "name": "Macédoine du Nord",
+    "capital": "Skopje",
+    "continent": "Europe",
+    "area": "25 713 km2",
+    "pourcent": "0,02 %",
+    "population": "2 083 374 hab."
+  },
+  {
+    "name": "Madagascar",
+    "capital": "Antananarivo",
+    "continent": "Afrique",
+    "area": "587 041 km2",
+    "pourcent": "0,39 %",
+    "population": "27 691 018 hab."
+  },
+  {
+    "name": "Malaisie",
+    "capital": "Kuala Lumpur",
+    "continent": "Asie",
+    "area": "330 803 km2",
+    "pourcent": "0,22 %",
+    "population": "32 365 999 hab."
+  },
+  {
+    "name": "Malawi",
+    "capital": "Lilongwe",
+    "continent": "Afrique",
+    "area": "118 484 km2",
+    "pourcent": "0,08 %",
+    "population": "19 129 952 hab."
+  },
+  {
+    "name": "Maldives",
+    "capital": "Malé",
+    "continent": "Asie",
+    "area": "300 km2",
+    "pourcent": "<0,001 %",
+    "population": "540 544 hab."
+  },
+  {
+    "name": "Mali",
+    "capital": "Bamako",
+    "continent": "Afrique",
+    "area": "1 241 238 km2",
+    "pourcent": "0,83 %",
+    "population": "20 250 833 hab."
+  },
+  {
+    "name": "Malte",
+    "capital": "La Valette",
+    "continent": "Europe",
+    "area": "316 km2",
+    "pourcent": "<0,001 %",
+    "population": "441 543 hab."
+  },
+  {
+    "name": "Maroc",
+    "capital": "Rabat",
+    "continent": "Afrique",
+    "area": "446 550 km2",
+    "pourcent": "0,30 %",
+    "population": "37 270 012 hab."
+  },
+  {
+    "name": "Marshall",
+    "capital": "Majuro",
+    "continent": "Océanie",
+    "area": "181 km2",
+    "pourcent": "<0,001 %",
+    "population": "59 190 hab."
+  },
+  {
+    "name": "Mauritanie",
+    "capital": "Nouakchott",
+    "continent": "Afrique",
+    "area": "1 025 520 km2",
+    "pourcent": "0,69 %",
+    "population": "4 649 658 hab."
+  },
+  {
+    "name": "Mexique",
+    "capital": "Mexico",
+    "continent": "Amérique",
+    "area": "1 964 375 km2",
+    "pourcent": "1,3 %",
+    "population": "128 932 753 hab."
+  },
+  {
+    "name": "Micronésie",
+    "capital": "Palikir",
+    "continent": "Océanie",
+    "area": "702 km2",
+    "pourcent": "<0,001 %",
+    "population": "115 023 hab."
+  },
+  {
+    "name": "Moldavie",
+    "capital": "Chisinau",
+    "continent": "Europe",
+    "area": "33 846 km2 (29 683 km2 sans la Transnistrie)",
+    "pourcent": "0,02 %",
+    "population": "4 033 963 hab."
+  },
+  {
+    "name": "Monaco",
+    "capital": "Monaco",
+    "continent": "Europe",
+    "area": "2 km2",
+    "pourcent": "<0,00001 %",
+    "population": "39 242 hab."
+  },
+  {
+    "name": "Mongolie",
+    "capital": "Oulan-Bator",
+    "continent": "Asie",
+    "area": "1 564 100 km2",
+    "pourcent": "1,05 %",
+    "population": "3 278 290 hab."
+  },
+  {
+    "name": "Monténégro",
+    "capital": "Podgorica",
+    "continent": "Europe",
+    "area": "13 812 km2",
+    "pourcent": "<0,01 %",
+    "population": "628 066 hab."
+  },
+  {
+    "name": "Mozambique",
+    "capital": "Maputo",
+    "continent": "Afrique",
+    "area": "801 590 km2",
+    "pourcent": "0,54 %",
+    "population": "31 255 435 hab."
+  },
+  {
+    "name": "Namibie",
+    "capital": "Windhoek",
+    "continent": "Afrique",
+    "area": "824 268 km2",
+    "pourcent": "0,55 %",
+    "population": "2 540 905 hab."
+  },
+  {
+    "name": "Nauru",
+    "capital": "Yaren",
+    "continent": "Océanie",
+    "area": "21 km2",
+    "pourcent": "<0,0001 %",
+    "population": "10 824 hab."
+  },
+  {
+    "name": "Népal",
+    "capital": "Katmandou",
+    "continent": "Asie",
+    "area": "147 181 km2",
+    "pourcent": "0,10 %",
+    "population": "29 136 808 hab."
+  },
+  {
+    "name": "Nicaragua",
+    "capital": "Managua",
+    "continent": "Amérique",
+    "area": "130 373 km2",
+    "pourcent": "0,09 %",
+    "population": "6 624 554 hab."
+  },
+  {
+    "name": "Niger",
+    "capital": "Niamey",
+    "continent": "Afrique",
+    "area": "1 267 000 km2",
+    "pourcent": "0,85 %",
+    "population": "24 206 644 hab."
+  },
+  {
+    "name": "Nigeria",
+    "capital": "Abuja",
+    "continent": "Afrique",
+    "area": "923 768 km2",
+    "pourcent": "0,62 %",
+    "population": "206 139 589 hab."
+  },
+  {
+    "name": "Norvège",
+    "capital": "Oslo",
+    "continent": "Europe",
+    "area": "323 782 km2",
+    "pourcent": "0,22 %",
+    "population": "5 421 241 hab."
+  },
+  {
+    "name": "Nouvelle-Zélande",
+    "capital": "Wellington",
+    "continent": "Océanie",
+    "area": "270 467 km2",
+    "pourcent": "0,18 %",
+    "population": "4 822 233 hab."
+  },
+  {
+    "name": "Oman",
+    "capital": "Mascate",
+    "continent": "Asie",
+    "area": "309 500 km2",
+    "pourcent": "0,21 %",
+    "population": "5 106 626 hab."
+  },
+  {
+    "name": "Ouganda",
+    "capital": "Kampala",
+    "continent": "Afrique",
+    "area": "241 550 km2",
+    "pourcent": "0,16 %",
+    "population": "45 741 007 hab."
+  },
+  {
+    "name": "Ouzbékistan",
+    "capital": "Tachkent",
+    "continent": "Asie",
+    "area": "447 400 km2",
+    "pourcent": "0,30 %",
+    "population": "33 469 203 hab."
+  },
+  {
+    "name": "Pakistan",
+    "capital": "Islamabad",
+    "continent": "Asie",
+    "area": "796 095 km2",
+    "pourcent": "0,53 %-0,59 %",
+    "population": "220 892 340 hab."
+  },
+  {
+    "name": "Palaos",
+    "capital": "Melekeok",
+    "continent": "Océanie",
+    "area": "459 km2",
+    "pourcent": "<0,001 %",
+    "population": "18 094 hab."
+  },
+  {
+    "name": "Palestine",
+    "capital": "Jérusalem-Est",
+    "continent": "Asie",
+    "area": "6 020 km2",
+    "pourcent": "<0,01 %",
+    "population": "5 101 414 hab."
+  },
+  {
+    "name": "Panama",
+    "capital": "Panama",
+    "continent": "Amérique",
+    "area": "75 417 km2",
+    "pourcent": "0,05 %",
+    "population": "4 314 767 hab."
+  },
+  {
+    "name": "Papouasie-Nouvelle-Guin e",
+    "capital": "Port Moresby",
+    "continent": "Océanie",
+    "area": "462 840 km2",
+    "pourcent": "0,31 %",
+    "population": "8 947 024 hab."
+  },
+  {
+    "name": "Paraguay",
+    "capital": "Asunciòn",
+    "continent": "Amérique",
+    "area": "406 752 km2",
+    "pourcent": "0,27 %",
+    "population": "7 132 538 hab."
+  },
+  {
+    "name": "Pays-Bas",
+    "capital": "Amsterdam",
+    "continent": "Europe",
+    "area": "37 354 km2",
+    "pourcent": "0,03 %",
+    "population": "17 134 872 hab."
+  },
+  {
+    "name": "Pérou",
+    "capital": "Lima",
+    "continent": "Amérique",
+    "area": "1 285 216 km2",
+    "pourcent": "0,86 %",
+    "population": "32 971 854 hab."
+  },
+  {
+    "name": "Philippines",
+    "capital": "Manille",
+    "continent": "Asie",
+    "area": "300 000 km2",
+    "pourcent": "0,20 %",
+    "population": "109 581 078 hab."
+  },
+  {
+    "name": "Pologne",
+    "capital": "Varsovie",
+    "continent": "Europe",
+    "area": "312 685 km2",
+    "pourcent": "0,21 %",
+    "population": "37 846 611 hab."
+  },
+  {
+    "name": "Portugal",
+    "capital": "Lisbonne",
+    "continent": "Europe",
+    "area": "92 090 km2",
+    "pourcent": "0,06 %",
+    "population": "10 196 709 hab."
+  },
+  {
+    "name": "Qatar",
+    "capital": "Doha",
+    "continent": "Asie",
+    "area": "11 586 km2",
+    "pourcent": "<0,01 %",
+    "population": "2 881 053 hab."
+  },
+  {
+    "name": "République Centrafricaine",
+    "capital": "Bangui",
+    "continent": "Afrique",
+    "area": "622 984 km2",
+    "pourcent": "0,42%",
+    "population": "4 829 767 hab."
+  },
+  {
+    "name": "République Démocratique du Congo",
+    "capital": "Kinshasa",
+    "continent": "Afrique",
+    "area": "2 345 409 km2",
+    "pourcent": "1,60%",
+    "population": "105 044 646 hab."
+  },
+  {
+    "name": "République Dominicaine",
+    "capital": "Saint-Domingue",
+    "continent": "Amérique",
+    "area": "48 671 km2",
+    "pourcent": "0,03%",
+    "population": "10 847 910 hab."
+  },
+  {
+    "name": "République Tchèque",
+    "capital": "Prague",
+    "continent": "Europe",
+    "area": "78 865 km2",
+    "pourcent": "0,05 %",
+    "population": "10 708 981 hab."
+  },
+  {
+    "name": "Roumanie",
+    "capital": "Bucarest",
+    "continent": "Europe",
+    "area": "238 391 km2",
+    "pourcent": "0,16 %",
+    "population": "19 237 691 hab."
+  },
+  {
+    "name": "Royaume-Uni",
+    "capital": "Londres",
+    "continent": "Europe",
+    "area": "242 900 km2",
+    "pourcent": "0,16 %",
+    "population": "67 886 011 hab."
+  },
+  {
+    "name": "Russie",
+    "capital": "Moscou",
+    "continent": "Europe",
+    "area": "17 125 191 km2",
+    "pourcent": "11,5 %",
+    "population": "145 934 462 hab."
+  },
+  {
+    "name": "Rwanda",
+    "capital": "Kigali",
+    "continent": "Afrique",
+    "area": "26 338 km2",
+    "pourcent": "0,02 %",
+    "population": "12 952 218 hab."
+  },
+  {
+    "name": "Saint-Kitts-et-Nevis",
+    "capital": "Basseterre",
+    "continent": "Amérique",
+    "area": "261 km2",
+    "pourcent": "<0,001 %",
+    "population": "53 199 hab."
+  },
+  {
+    "name": "Saint-Marin",
+    "capital": "Saint-Marin",
+    "continent": "Europe",
+    "area": "61 km2",
+    "pourcent": "<0,0001 %",
+    "population": "33 931 hab."
+  },
+  {
+    "name": "Saint-Vincent-et-les-Grenadines",
+    "capital": "Kingstown",
+    "continent": "Amérique",
+    "area": "389 km2",
+    "pourcent": "<0,001 %",
+    "population": "110 940 hab."
+  },
+  {
+    "name": "Sainte-Lucie",
+    "capital": "Castries",
+    "continent": "Amérique",
+    "area": "539 km2",
+    "pourcent": "<0,001 %",
+    "population": "183 627 hab."
+  },
+  {
+    "name": "Salomon",
+    "capital": "Honiara",
+    "continent": "Océanie",
+    "area": "28 896 km2",
+    "pourcent": "0,02 %",
+    "population": "686 884 hab."
+  },
+  {
+    "name": "Salvador",
+    "capital": "San Salvador",
+    "continent": "Amérique",
+    "area": "21 041 km2",
+    "pourcent": "0,01 %",
+    "population": "6 486 205 hab."
+  },
+  {
+    "name": "Samoa",
+    "capital": "Apia",
+    "continent": "Océanie",
+    "area": "2 842 km2",
+    "pourcent": "<0,01 %",
+    "population": "198 414 hab."
+  },
+  {
+    "name": "São Tomé et Prìncipe",
+    "capital": "São Tomé",
+    "continent": "Afrique",
+    "area": "964 km2",
+    "pourcent": "<0,001 %",
+    "population": "219 159 hab."
+  },
+  {
+    "name": "Sénégal",
+    "capital": "Dakar",
+    "continent": "Afrique",
+    "area": "196 722 km2",
+    "pourcent": "0,13 %",
+    "population": "16 743 927 hab."
+  },
+  {
+    "name": "Serbie",
+    "capital": "Belgrade",
+    "continent": "Europe",
+    "area": "88 361 km2",
+    "pourcent": "0,06 %",
+    "population": "8 737 371 hab."
+  },
+  {
+    "name": "Seychelles",
+    "capital": "Victoria",
+    "continent": "Afrique",
+    "area": "452 km2",
+    "pourcent": "<0,001 %",
+    "population": "98 347 hab."
+  },
+  {
+    "name": "Sierra Leone",
+    "capital": "Freetown",
+    "continent": "Afrique",
+    "area": "71 740 km2",
+    "pourcent": "0,05 %",
+    "population": "7 976 983 hab."
+  },
+  {
+    "name": "Singapour",
+    "capital": "Singapour",
+    "continent": "Asie",
+    "area": "710 km2",
+    "pourcent": "<0,001 %",
+    "population": "5 850 342 hab."
+  },
+  {
+    "name": "Slovaquie",
+    "capital": "Bratislava",
+    "continent": "Europe",
+    "area": "49 037 km2",
+    "pourcent": "0,03 %",
+    "population": "5 459 642 hab."
+  },
+  {
+    "name": "Slovénie",
+    "capital": "Ljubljana",
+    "continent": "Europe",
+    "area": "20 273 km2",
+    "pourcent": "0,01 %",
+    "population": "2 078 938 hab."
+  },
+  {
+    "name": "Somalie",
+    "capital": "Mogadiscio",
+    "continent": "Afrique",
+    "area": "637 657 km2",
+    "pourcent": "0,43 %",
+    "population": "15 893 222 hab."
+  },
+  {
+    "name": "Soudan",
+    "capital": "Khartoum",
+    "continent": "Afrique",
+    "area": "1 861 484 km211",
+    "pourcent": "1,3 %",
+    "population": "43 849 260 hab."
+  },
+  {
+    "name": "Soudan du Sud",
+    "capital": "Djouba",
+    "continent": "Afrique",
+    "area": "644 329 km2",
+    "pourcent": "0,42 %",
+    "population": "11 193 725 hab."
+  },
+  {
+    "name": "Sri Lanka",
+    "capital": "Sri Jayawardenapura",
+    "continent": "Asie",
+    "area": "65 610 km2",
+    "pourcent": "0,04 %",
+    "population": "21 413 249 hab."
+  },
+  {
+    "name": "Suède",
+    "capital": "Stockholm",
+    "continent": "Europe",
+    "area": "450 295 km2",
+    "pourcent": "0,30 %",
+    "population": "10 099 265 hab."
+  },
+  {
+    "name": "Suisse",
+    "capital": "Berne",
+    "continent": "Europe",
+    "area": "41 277 km2",
+    "pourcent": "0,03 %",
+    "population": "8 654 622 hab."
+  },
+  {
+    "name": "Suriname",
+    "capital": "Paramaribo",
+    "continent": "Amérique",
+    "area": "163 820 km2",
+    "pourcent": "0,11 %",
+    "population": "586 632 hab."
+  },
+  {
+    "name": "Syrie",
+    "capital": "Damas",
+    "continent": "Asie",
+    "area": "185 180 km2",
+    "pourcent": "0,12 %",
+    "population": "17 500 658 hab."
+  },
+  {
+    "name": "Tadjikistan",
+    "capital": "Douchanbe",
+    "continent": "Asie",
+    "area": "143 100 km2",
+    "pourcent": "0,10 %",
+    "population": "9 537 645 hab."
+  },
+  {
+    "name": "Taïwan",
+    "capital": "Taipei",
+    "continent": "Asie",
+    "area": "",
+    "pourcent": "",
+    "population": "23 816 775 hab."
+  },
+  {
+    "name": "Tanzanie",
+    "capital": "Dodoma",
+    "continent": "Afrique",
+    "area": "945 087 km2",
+    "pourcent": "0,63 %",
+    "population": "59 734 218 hab."
+  },
+  {
+    "name": "Tchad",
+    "capital": "N'Djamena",
+    "continent": "Afrique",
+    "area": "1 284 000 km2",
+    "pourcent": "0,86 %",
+    "population": "16 425 864 hab."
+  },
+  {
+    "name": "Thaïlande",
+    "capital": "Bangkok",
+    "continent": "Asie",
+    "area": "513 120 km2",
+    "pourcent": "0,34 %",
+    "population": "69 799 978 hab."
+  },
+  {
+    "name": "Timor-Oriental",
+    "capital": "Dili",
+    "continent": "Océanie",
+    "area": "14 874 km2",
+    "pourcent": "<0,01 %",
+    "population": "1 318 445 hab."
+  },
+  {
+    "name": "Togo",
+    "capital": "Lomé",
+    "continent": "Afrique",
+    "area": "56 785 km2",
+    "pourcent": "0,04 %",
+    "population": "8 278 724 hab."
+  },
+  {
+    "name": "Tonga",
+    "capital": "Nukualofa",
+    "continent": "Oc anie",
+    "area": "747 km2",
+    "pourcent": "<0,001 %",
+    "population": "105 695 hab."
+  },
+  {
+    "name": "Trinité-et-Tobago",
+    "capital": "Port of Spain",
+    "continent": "Amérique",
+    "area": "5 130 km2",
+    "pourcent": "<0,01 %",
+    "population": "1 399 488 hab."
+  },
+  {
+    "name": "Tunisie",
+    "capital": "Tunis",
+    "continent": "Afrique",
+    "area": "163 610 km2",
+    "pourcent": "0,11 %",
+    "population": "11 818 619 hab."
+  },
+  {
+    "name": "Turkménistan",
+    "capital": "Achgabat",
+    "continent": "Asie",
+    "area": "488 100 km2",
+    "pourcent": "0,33 %",
+    "population": "6 031 200 hab."
+  },
+  {
+    "name": "Turquie",
+    "capital": "Ankara",
+    "continent": "Asie",
+    "area": "783 562 km2",
+    "pourcent": "0,53 %",
+    "population": "84 339 067 hab."
+  },
+  {
+    "name": "Tuvalu",
+    "capital": "Fanafuti",
+    "continent": "Océanie",
+    "area": "26 km2",
+    "pourcent": "<0,0001 %",
+    "population": "11 792 hab."
+  },
+  {
+    "name": "Ukraine",
+    "capital": "Kiev",
+    "continent": "Europe",
+    "area": "603 500 km2 (576 604 km2 sans la Crim e)",
+    "pourcent": "0,41 %",
+    "population": "43 733 762 hab."
+  },
+  {
+    "name": "Uruguay",
+    "capital": "Montevideo",
+    "continent": "Amérique",
+    "area": "176 215 km2",
+    "pourcent": "0,12 %",
+    "population": "3 473 730 hab."
+  },
+  {
+    "name": "Vanuatu",
+    "capital": "Port-Vila",
+    "continent": "Océanie",
+    "area": "12 189 km2",
+    "pourcent": "<0,01 %",
+    "population": "307 145 hab."
+  },
+  {
+    "name": "Vatican",
+    "capital": "Vatican",
+    "continent": "Europe",
+    "area": "0,44 km2",
+    "pourcent": "<0,000001 %",
+    "population": "801 hab."
+  },
+  {
+    "name": "Venezuela",
+    "capital": "Caracas",
+    "continent": "Amérique",
+    "area": "912 050 km2",
+    "pourcent": "0,61 %",
+    "population": "28 435 940 hab."
+  },
+  {
+    "name": "Viét Nam",
+    "capital": "Hanoi",
+    "continent": "Asie",
+    "area": "331 212 km2",
+    "pourcent": "0,22 %",
+    "population": "97 338 579 hab."
+  },
+  {
+    "name": "Yémen",
+    "capital": "Sanaa",
+    "continent": "Asie",
+    "area": "527 968 km2",
+    "pourcent": "0,35 %",
+    "population": "29 825 964 hab."
+  },
+  {
+    "name": "Zambie",
+    "capital": "Lusaka",
+    "continent": "Afrique",
+    "area": "752 612 km2",
+    "pourcent": "0,51 %",
+    "population": "18 383 955 hab."
+  },
+  {
+    "name": "Zimbabwe",
+    "capital": "Harare",
+    "continent": "Afrique",
+    "area": "390 757 km2",
+    "pourcent": "0,26 %",
+    "population": "14 862 924 hab."
+  }
+]

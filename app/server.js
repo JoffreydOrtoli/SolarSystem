@@ -3,9 +3,12 @@ const path = require('path');
 const server = express();
 const port = 3000;
 const router = require('./router');
+const dayjs = require('dayjs');
+
+const dateDayJs = dayjs().format('DD/MM/YYYY HH:mm');
 
 server.locals = {
-    author: 'Joffrey',
+    date: dateDayJs,
   };
 
 server.set('view engine', 'ejs');
