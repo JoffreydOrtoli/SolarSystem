@@ -4,7 +4,7 @@ const countrys = require('./data/countrys');
 const router = express.Router();
 
 router.get("/", (req, res) => {
-    res.render("acceuil");
+    res.render("home");
 })
 
 router.get('/solarsystem', (req, res) => {
