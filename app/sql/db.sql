@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS solarsystem;
+DROP TABLE IF EXISTS country;
+DROP TABLE IF EXISTS city;
+
+CREATE TABLE solarsystem ( 
+  id INTEGER PRIMARY KEY,
+  name VARCHAR(255),
+  size INTEGER,
+  spitch TEXT
+);
+
+CREATE TABLE country (a VARCHAR REFERENCES t1(a));
+
+CREATE TABLE city 

@@ -1,6 +1,7 @@
 const express = require('express');
 const server = express();
-const port = 3001;
+const session = require('express-session');
+const PORT = process.env.PORT || 3001;
 const router = require('./app/router');
 
 server.locals = {
@@ -13,6 +14,15 @@ server.set('views', './app/views');
 server.use(express.static('assets'));
 server.use(router);
 
-server.listen(port, () => {
-    console.log(`app listening at http://localhost:${port}`)
-  });
+app.use(session({
+  secret: 'kwwaahh',
+  resave: false,
+  saveUninitialized: true,
+  cookie: { 
+    secure: true
+  }
+}));
+
+server.listen(PORT, () => {
+    console.log(`app listening at http://localhost:${PORT}`)
+});

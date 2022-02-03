@@ -2,5 +2,5 @@
 
 ## Initialisation
 
-Installer des dépendances avec NPM install
-Créer fichier .env sur la base du .env.exemple
+- Installation des dépendances avec NPM install (express, express-session, ejs, dotenv, )
+- Créer fichier .env sur la base du .env.exemple
