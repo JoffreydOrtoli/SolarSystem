@@ -92,6 +92,9 @@ router.get('/terre/:continent', (req, res, next) => {
         next();
     }
 });  
+router.get('/sitemap.xlm', (req, res, next) => {
+    res.render('sitemap');
+});
 
 router.use(function (req, res) {
     res.status(404).render('notfound');

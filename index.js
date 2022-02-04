@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const server = express();
 const session = require('express-session');
@@ -14,7 +15,7 @@ server.set('views', './app/views');
 server.use(express.static('assets'));
 server.use(router);
 
-app.use(session({
+server.use(session({
   secret: 'kwwaahh',
   resave: false,
   saveUninitialized: true,
